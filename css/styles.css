@@ -15,6 +15,18 @@ body {
     font-family: var(--raleway);
 }
 
+h1 {
+    font-family: var(--prata);
+    font-weight: 800;
+    font-size: 33px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    padding: 0;
+}
+
 #image {
     border: solid .5px var(--color-vivid-cerulean);
     border-radius: 5px;
@@ -23,4 +35,22 @@ body {
     margin: 0 auto;
     display: block;
     box-shadow: 5px 5px 10px 0 var(--color-white);
+}
+
+#img-caption {
+    font-size: 10px;
+    text-align: right;
+    color: var(--color-white);
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#tribute-info {
+    padding: 10px;
+}
+
+footer {
+    margin: 0;
+    background-color: var(--color-rich-black);
+    color: var(--color-vivid-cerulean);
 }
